@@ -79,7 +79,17 @@ int main(){
     mp.insert({1,200});
     mp.insert({1,300});//
 
-
+    //list
+   list<int>ls;
+   ls.push_back(10);
+   ls.push_back(20);
+   ls.push_front(30); //[30,10,20]
+   ls.pop_back();  //[30,10]
+   ls.pop_front();  //[10] 
+   ls.insert(ls.begin(),100); //[100,10]
+   ls.insert(ls.begin(),200); //[200,100,10]
+    
+    
 
 
 
